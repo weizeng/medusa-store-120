@@ -5,7 +5,7 @@
         "script": "index.js",
         "env": {
           "NODE_ENV": "production",
-          "ADMIN_CORS": "http://23.235.220.226:7001",
+          "ADMIN_CORS": "http://70.34.244.4:7001",
           "PAYPAL_AUTH_WEBHOOK_ID":"4WA58101W8367625W",
           "PAYPAL_CLIENT_ID":"AXxVWBdyPmulJlUJ3ypAJdIAkROctdNXx0JAnvuVtAGsd7xr5tkBZfHa_aE1su2UMwtOwfMKS7cEocEN",
           "PAYPAL_CLIENT_SECRET":"EPFVpI1HaFv_N4_yG_qbF1sTEiiaxgs-sp2ybEXmPlevcyLnrIa3a6VEd1Dn3nHrs-z4EULxA19LXFPf",
@@ -15,7 +15,7 @@
           "S3_REGION":"us-west-1",
           "S3_SECRET_ACCESS_KEY":"xMSZek9JBZJrcdCLq9RvFwAalttmX/J/OUMxfC8/",
           "S3_URL":"https://medusa-2.s3.us-west-1.amazonaws.com",
-          "STORE_CORS":"https://dfdf.in,http://23.235.220.226:7001",
+          "STORE_CORS":"https://dfdf.in,http://70.34.244.4:7001",
           "STRIPE_API_KEY": "sk_test_51OcKpMLqfqRt0tEEoUoXjWF3QzDHtFQ8t9cf85DFJvWqHJfVIZzCnCP05kN9BOkkTtP6AVEWrZwknkGklmySEaNZ00Wy2TdyO3",
           "STRIPE_WEBHOOK_SECRET": "we_1Q3XOPLqfqRt0tEEFLYse7mu"
         }
