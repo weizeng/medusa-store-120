@@ -1,7 +1,7 @@
 /dist
 .env
 .env.production
-start.json
+start*.json
 .DS_Store
 /uploads
 /node_modules
