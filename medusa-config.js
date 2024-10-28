@@ -58,6 +58,22 @@ const plugins = [
     },
   },
   {
+    resolve: `medusa-multilingual-tolgee`,
+    options: {
+      baseURL: process.env.MEDUSA_ADMIN_TOLGEE_API_URL,
+      apiKey: process.env.MEDUSA_ADMIN_TOLGEE_API_KEY,
+      defaultLanguage: "en",
+      availableLanguages: [
+        { label: "English", tag: "en" },
+        { label: "Japanese", tag: "ja-JP" },
+        // { label: "Polish", tag: "pl" },
+      ],
+      productsKeys: ["title", "subtitle", "description"],
+      projectId: "10999",
+      enableUI: true,
+    },
+  },
+  {
     resolve: "@medusajs/admin",
     /** @type {import('@medusajs/admin').PluginOptions} */
     options: {
